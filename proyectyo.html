@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Textos</title>
+
+    <link rel="stylesheet" href="styleProyecto.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Comparador de Textos</h1>
+        <p>Compara dos textos y encuentra sus diferencias</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Comparar textos</h2>
+
+            <div class="textos">
+
+                <div>
+                    <label for="textoOriginal">
+                        Texto original
+                    </label>
+
+                    <textarea id="textoOriginal"
+                        placeholder="Escriba aquí el texto original"></textarea>
+                </div>
+
+                <div>
+                    <label for="textoNuevo">
+                        Texto nuevo
+                    </label>
+
+                    <textarea id="textoNuevo"
+                        placeholder="Escriba aquí el texto nuevo"></textarea>
+                </div>
+
+            </div>
+
+            <div class="botones">
+
+                <button id="botonComparar">
+                    Comparar
+                </button>
+
+                <button id="botonLimpiar">
+                    Limpiar
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section id="resultado">
+
+            <h2>Resultado</h2>
+
+            <div id="comparacion"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>@Comparador de Textos</p>
+    </footer>
+
+
+    <script src="scriptProyecto.js"></script>
+
+</body>
+
+</html>
